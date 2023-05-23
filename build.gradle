@@ -1,0 +1,59 @@
+buildscript {
+    ext {
+        springBootVersion = '2.0.5.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+apply plugin: 'war'
+
+group = 'com.api.apollo'
+version = 'v11_test1'
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+//configurations {
+//  compile.exclude module: 'spring-boot-starter-tomcat'
+//  compile.exclude group: 'org.apache.tomcat'
+//}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    compile('org.springframework.boot:spring-boot-starter-data-jpa')
+    compile('org.springframework.boot:spring-boot-starter-security')
+    compile('org.springframework.boot:spring-boot-starter-web')
+//    providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
+    runtime('org.springframework.boot:spring-boot-devtools')
+    compileOnly('org.projectlombok:lombok')
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+    testCompile('org.springframework.security:spring-security-test')
+    compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.7.0'
+    compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.7.0'
+    compile('io.jsonwebtoken:jjwt:0.7.0')
+    compile group: 'com.google.code.gson', name: 'gson', version: '2.8.5'
+    compile group: 'org.json', name: 'json', version: '20180813'
+    compile 'com.itextpdf:itext-pdfa:5.5.10'
+    compile 'com.itextpdf:itextg:5.5.9'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-mail', version: '2.1.1.RELEASE'
+    compile group: 'commons-io', name: 'commons-io', version: '2.6'
+    compile group: 'net.sf.barcode4j', name: 'barcode4j', version: '2.0'
+    compile "org.apache.poi:poi-ooxml:3.17"	 // For `.xlsx` files
+    compile group: 'org.apache.poi', name: 'poi', version: '3.17'
+// https://mvnrepository.com/artifact/javax.interceptor/javax.interceptor-api
+    compile group: 'javax.interceptor', name: 'javax.interceptor-api', version: '1.2.2'
+
+
+}

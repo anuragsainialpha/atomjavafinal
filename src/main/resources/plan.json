@@ -1,0 +1,103 @@
+{
+  "planItems": [
+    {
+      "Dispatch Date": "26/09/2018",
+      "Source Location": "1002",
+      "Destination Location": "HRR2",
+      "Material Code": "RTA1JHAMR3A01",
+      "Material Description": "",
+      "Batch Code": "LIAW",
+      "Marketing Segment": "REP",
+      "Quantity": "200",
+      "Priority": "1"
+    },
+    {
+      "Dispatch Date": "26/09/2018",
+      "Source Location": "1002",
+      "Destination Location": "TNR3",
+      "Material Code": "RTGBF0AXL4AT1",
+      "Material Description": "",
+      "Batch Code": "LIAW",
+      "Marketing Segment": "REP",
+      "Quantity": "224",
+      "Priority": "2"
+    },
+    {
+      "Dispatch Date": "26/09/2018",
+      "Source Location": "1002",
+      "Destination Location": "KAR2",
+      "Material Code": "RTJACDAXL4AQ1",
+      "Material Description": "145 R12 86 Q 8PR AMAZER XL -D",
+      "Batch Code": "LIAW",
+      "Marketing Segment": "REP",
+      "Quantity": "256",
+      "Priority": "3"
+    },
+    {
+      "Dispatch Date": "26/09/2018",
+      "Source Location": "1002",
+      "Destination Location": "GJR",
+      "Material Code": "RTA1AJMNG8A01",
+      "Material Description": "",
+      "Batch Code": "LIAW",
+      "Marketing Segment": "REP",
+      "Quantity": "100",
+      "Priority": "2"
+    },
+    {
+      "Dispatch Date": "26/09/2018",
+      "Source Location": "1002",
+      "Destination Location": "GJR1",
+      "Material Code": "RTE1IDADX3A01",
+      "Material Description": "",
+      "Batch Code": "LIAW",
+      "Marketing Segment": "REP",
+      "Quantity": "10",
+      "Priority": "2"
+    },
+    {
+      "Dispatch Date": "26/09/2018",
+      "Source Location": "1002",
+      "Destination Location": "HRR2",
+      "Material Code": "RLGDG0A3M4AH2",
+      "Material Description": "",
+      "Batch Code": "LIAW",
+      "Marketing Segment": "REP",
+      "Quantity": "30",
+      "Priority": "2"
+    },
+    {
+      "Dispatch Date": "26/09/2018",
+      "Source Location": "1002",
+      "Destination Location": "TNR3",
+      "Material Code": "RTK4AFDR51A01",
+      "Material Description": "",
+      "Batch Code": "LIAW",
+      "Marketing Segment": "REP",
+      "Quantity": "40",
+      "Priority": "2"
+    },
+    {
+      "Dispatch Date": "26/09/2018",
+      "Source Location": "1002",
+      "Destination Location": "GJR1",
+      "Material Code": "RTGBA0AXL4AT1",
+      "Material Description": "",
+      "Batch Code": "LIAF",
+      "Marketing Segment": "REP",
+      "Quantity": "448",
+      "Priority": "1"
+    },
+    {
+      "Dispatch Date": "26/09/2018",
+      "Source Location": "1002",
+      "Destination Location": "HRR2",
+      "Material Code": "RTA1JHAMR3A01",
+      "Material Description": "",
+      "Batch Code": "LIAW",
+      "Marketing Segment": "REP",
+      "Quantity": "1",
+      "Priority": "1"
+    }
+  ]
+}
